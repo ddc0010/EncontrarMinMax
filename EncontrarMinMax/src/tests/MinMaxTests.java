@@ -12,7 +12,7 @@ class MinMaxTests {
     public void testFindMin() {
         int[] array = {3, 7, 1, 9, 4};
         int expectedMin = 1;
-        int actualMin = MinMax.findMin(array);
+        int actualMin = MinMax.encontrarMin(array);
         assertEquals(expectedMin, actualMin);
     }
 
@@ -20,7 +20,7 @@ class MinMaxTests {
     public void testFindMax() {
         int[] array = {3, 7, 1, 9, 4};
         int expectedMax = 9;
-        int actualMax = MinMax.findMax(array);
+        int actualMax = MinMax.encontrarMax(array);
         assertEquals(expectedMax, actualMax);
     }
     

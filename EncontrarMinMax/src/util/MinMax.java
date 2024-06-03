@@ -9,7 +9,7 @@ public class MinMax {
      * @return el valor mínimo en el arreglo.
      * @throws IllegalArgumentException si el arreglo es nulo o está vacío.
      */
-    public static int findMin(int[] array) {
+    public static int encontrarMin(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("El arreglo no puede ser nulo o vacío");
         }
@@ -30,7 +30,7 @@ public class MinMax {
      * @return el valor máximo en el arreglo.
      * @throws IllegalArgumentException si el arreglo es nulo o está vacío.
      */
-    public static int findMax(int[] array) {
+    public static int encontrarMax(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("El arreglo no puede ser nulo o vacío");
         }
